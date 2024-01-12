@@ -11,7 +11,7 @@ public class Main {
     
     String S = br.readLine();
     
-    bw.write(S.getBytes().length+ "\n"); 
+    bw.write(S.length()+ "\n"); 
     
     bw.close();
     br.close();
